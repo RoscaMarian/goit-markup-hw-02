@@ -1,0 +1,63 @@
+.left-blue{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+.right-black {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.global-header {
+    width: 1440px;
+    height: 72px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    line-height: 940;
+}
+.top-nav ul li {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: inline;
+}
+.main-contacts {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+line-height: 940;
+}
+.button-bar ul il :hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.main-contacts :hover {
+    background-color: #404BBF;
+    cursor: pointer; 
+}
+.top-nav ul li :hover {
+    background-color: #404BBF; 
+}
+p {
+    font-style: normal;
+}
+
+.main-section div :hover {
+    background-color: #404BBF;
+    cursor: pointer;    
+}
