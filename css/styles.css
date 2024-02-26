@@ -1,63 +1,178 @@
-.left-blue{
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;}
-.right-black {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+:root {
+    --brand-color: #4D5AE5;
+    --default-text-color: #2E2F42;
+    --link-color_hover: #404BBF;
+    --text-color: #434455;
+    --h1-color: #fff;
+    --background-color: #fff;
+    --section-background-color: #f4f4fd;
+    --accent-color: #E7E9FC;
+    --nav-bottom-border: #e7e9fc;
+}
+
+.title .title-h2 .title-h3 .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.global-header {
+
+.main-contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.button-bar ul il :hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.main-contacts :hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.top-nav ul li :hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.text {
+    font-style: normal;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     width: 1440px;
     height: 72px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    line-height: 940;
 }
-.top-nav ul li {
+
+ul {
     list-style-type: none;
+}
+
+.main-contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-nav {
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: inline;
-}
-.main-contacts {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-line-height: 940;
-}
-.button-bar ul il :hover {
-    background-color: #404BBF;
-    cursor: pointer;
-}
-.main-contacts :hover {
-    background-color: #404BBF;
-    cursor: pointer; 
-}
-.top-nav ul li :hover {
-    background-color: #404BBF; 
-}
-p {
-    font-style: normal;
+    margin-right: 20pc;
 }
 
-.main-section div :hover {
-    background-color: #404BBF;
-    cursor: pointer;    
+.top-nav li,
+.main-contacts li {
+    padding-left: 40px;
+    flex-grow: 1;
+}
+
+.top-nav a,
+.main-contacts a,
+.container-logo a {
+    text-decoration: none;
+}
+
+.logo-text {
+    color: var(--brand-color);
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--default-text-color);
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.text-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    flex-direction: column;
+}
+
+.h1-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    width: 54pc;
+    margin-left: 300px;
+}
+.cards-spacing {
+    width: 1128px;
+    height: 20px;
+
+
+}
+.text-cards {
+    width: 1128px;
+    height: 104px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 12pc;
+}
+.service-button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    border-radius: 4%;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin-left: 650px;
+    cursor: pointer;
+}
+.text-cards div h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.text-cards div h4 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.cards-spacing {
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
 }
