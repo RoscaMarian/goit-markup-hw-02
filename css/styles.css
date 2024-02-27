@@ -36,9 +36,12 @@
     cursor: pointer;
 }
 
-.top-nav ul li :hover {
-    background-color: #404BBF;
+.top-nav  :hover {
+
     cursor: pointer;
+}
+.top-nav {
+    padding-right: 600px;
 }
 
 .text {
@@ -51,8 +54,8 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    width: 1440px;
-    height: 72px;
+    margin: 0 auto;
+
 }
 
 ul {
@@ -72,7 +75,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-right: 20pc;
+    margin: 0 auto;
 }
 
 .top-nav li,
@@ -105,20 +108,15 @@ ul {
     font-size: 18px;
     letter-spacing: 0.03em;
 }
-
-.text-cards {
-    display: flex;
-    justify-content: center;
-}
-
 .main-section {
-    width: 1440px;
+
     height: 600px;
     background: #2e2f42;
     display: flex;
     justify-content: center;
     border-radius: 0;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .h1-text {
@@ -130,20 +128,7 @@ ul {
     text-align: center;
     color: #fff;
     width: 54pc;
-    margin-left: 300px;
-}
-.cards-spacing {
-    width: 1128px;
-    height: 20px;
-
-
-}
-.text-cards {
-    width: 1128px;
-    height: 104px;
-    display: flex;
-    align-items: flex-end;
-    margin-left: 12pc;
+    margin-left: 500px;
 }
 .service-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -152,10 +137,20 @@ ul {
     padding: 16px 32px;
     width: 169px;
     height: 56px;
-    margin-left: 650px;
+    margin-left: 830px;
     cursor: pointer;
+    color: white;
 }
-.text-cards div h4 {
+.content {
+
+    height: 2592px;
+    margin: 0 auto;
+
+}
+.main-content {
+    margin: 0 auto;
+}
+.cards-spacing ul li h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -163,7 +158,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.text-cards div h4 p {
+.cards-spacing ul li p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -171,8 +166,185 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.cards-spacing {
-    justify-content: space-between;
+.text-cards {
     display: flex;
-    margin: 10px;
+    justify-content: center;
+    margin-left: 7pc;
+    margin: 0 auto;
+    height: 104px;
+    margin-top: 5pc;
+}
+.cards-spacing ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.images-card {
+    display: flex;
+    justify-content: center;
+}
+.images ul {
+    width: 1128px;
+    height: 409px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;    
+}
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42; 
+    margin-left: 5pc; 
+    margin: 0 auto; 
+}
+.images {
+    margin-top: 10pc;
+}
+.tird-container {
+    margin: 0 auto;
+    height: 732px;
+    background: #f4f4fd;    
+}
+.last-section {
+    display: flex;
+    justify-content: center;
+
+}
+.img {
+    width: 264px;
+    height: 260px;    
+}
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.job-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455; 
+    display: flex;
+    justify-content: center;   
+}
+.teamcard-1 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;  
+}
+.teamcard-2 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff; 
+}
+.teamcard-3 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;     
+}
+.teamcard-4 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;     
+}
+.our-team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    height: 10px;
+    margin-left: 7pc;
+    margin-top: 12pc;
+ 
+}
+.last-section {
+    display: flex;
+    justify-content: center;
+}
+.last-section ul {
+    margin-top: 5pc;
+}
+.footer {
+    margin: 0 auto;
+    height: 312px;
+    background: #2e2f42;  
+    margin: 0 auto;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    text-decoration: none;
+}
+.left-blue {
+    color: #4d5ae5;
+}
+.right-black {
+    color: #f4f4fd;
+}
+.footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;    
+}
+.footer-container {
+    width: 264px;
+    height: 112px; 
+    padding-top: 7pc;
+    padding-left: 8pc;
+}
+<!--PORTOFOLIO-->
+.top-logo {
+    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+    height: 72px;
+    display: flex;    
+}
+.top-nawv {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42; 
+    width: 261px;
+    height: 24px;   
 }
